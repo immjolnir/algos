@@ -67,7 +67,7 @@ int main(){
         for(int i=0;i<n;i++){
     		ans=inf;
 			KDT.query(0,n-1,0,p[i]);
-        	printf("%I64d\n",ans);
+        	printf("%I64lld\n",ans);
 		}       
     }
     return 0;
